@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 4px 8px rgb(77, 76, 76);
+    border-radius: 5px;
+    padding: 30px;
+    padding-bottom: 60px;
+    width: 20%;
+    margin-top: 2rem;
+}
+
+.task-input{
+    margin-left: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 230px;
+    border: black 1px solid;
+    background-color: rgb(236, 236, 236);
+    padding-left: 10px;
+    
+    /* box-shadow: 2px 4px 8px rgb(27, 27, 27); */
+}
+
+
+.task-post{
+    height: 35px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(120, 165, 231);
+    margin-left: 5px;
+    border: none;
+}
+
+.task-post:hover{
+    cursor: pointer;
+}
+
+.task-newTask {
+    width: 445px;
+    display: flex;
+    background-color: rgb(187, 93, 93);
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 2px 4px 8px rgb(77, 76, 76);
+    align-items: center;
+}
+
+.task-newTask h3{
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    font-size: 25px;
+}
+
+.task-newTaskbtn {
+    margin-left: auto;
+    margin-right: 1rem;
+    
+}
+.btn-delTask{
+    margin-left: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 1, 1);
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btnEdit{
+    color: green;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+}
+
+.completed{
+    background-color: rgb(73, 168, 93);
+}
